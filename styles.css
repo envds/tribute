@@ -37,20 +37,13 @@ img{
   text-align:center;
 
 }
-article,a{
-  max-width:75em;
-  margin:0 auto;
-  text-align:left;
-  font-size:auto;
-  text-decoration: none;
-  
-}
 article > a {
-  color: tomato;
+  color: grey;
 }
+h3>a{ color:pink;} 
 
  a: link { color: black; }
- a:visited { color:pink; }
+ a:visited { color:white }
  a:hover{ color: yellow; }
  a:active{ color: red; }
 
