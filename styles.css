@@ -1,0 +1,125 @@
+ html,body{
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+  text-align:center;
+  min-width:260px;
+  color:white;
+  margin-right:2px;
+
+}
+#main{
+  margin:15px auto;
+  padding:20px;
+  border:0px solid;
+  border-radius:5px;
+  background: #13205a;
+}
+img{
+  max-width: 100%; 
+  display: block; 
+  height: auto;
+  margin: auto;
+}
+#img-div{
+  margin:-5px;
+  margin-top:20px;
+  width:100%;
+  border: 1px solid #2506c5;
+  background:#172669; }
+}
+#img-caption{
+  margin:15px;
+}
+#headline{
+
+  margin-top:50px;
+  text-align:center;
+
+}
+article,a{
+  max-width:75em;
+  margin:0 auto;
+  text-align:left;
+  font-size:auto;
+  text-decoration: none;
+  
+}
+article > a {
+  color: tomato;
+}
+
+ a: link { color: black; }
+ a:visited { color:pink; }
+ a:hover{ color: yellow; }
+ a:active{ color: red; }
+
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+body {margin:0;}
+
+.icon-bar {
+    width: 100%;
+    background-color: white;
+    overflow: auto;
+}
+
+.icon-bar a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #4CAF50 !important;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+ 
