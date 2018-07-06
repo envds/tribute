@@ -1,7 +1,6 @@
-
-
- @import url('https://fonts.googleapis.com/css?family=Paytone+One');
- html,body{
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+html,body{
+font-family: 'Kanit', sans-serif;
   text-align:center;
   min-width:260px;
   color:white;
@@ -15,6 +14,7 @@
   border-radius:5px;
   background: #13205a;
 }
+
 img{
   max-width: 100%; 
   display: block; 
@@ -37,21 +37,35 @@ img{
   text-align:center;
 
 }
-article > a {
-  color: grey;
+article,a{
+  max-width:75em;
+  margin:0 auto;
+  text-align:left;
+  font-size:auto;
+  text-decoration: none;
+  
 }
-h3>a{ color:pink;} 
+article > a {
+  color: pink;
+}
+article::first-letter {
+    color: red;
+    font-size: x-large;
+}
+
+h3 > a{ color: pink;} 
+
 
  a: link { color: black; }
  a:visited { color:white }
- a:hover{ color: yellow; }
- a:active{ color: red; }
+ a:hover{ color: black; }
+ a:active{ color: yellow; }
 
 
 
 .fa {
   padding: 20px;
-  font-size: 30px;
+   
   width: 50px;
   text-align: center;
   text-decoration: none;
@@ -117,4 +131,4 @@ body {margin:0;}
   color: white;
 }
 
- 
+p > a{color:pink;}
