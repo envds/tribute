@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Kanit');
+
 html,body{
 font-family: 'Kanit', sans-serif;
   text-align:center;
@@ -7,6 +8,7 @@ font-family: 'Kanit', sans-serif;
   margin-right:2px;
 
 }
+
 #main{
   margin:15px auto;
   padding:20px;
@@ -21,6 +23,7 @@ img{
   height: auto;
   margin: auto;
 }
+
 #img-div{
   margin:-5px;
   margin-top:20px;
@@ -28,15 +31,18 @@ img{
   border: 1px solid #2506c5;
   background:#172669; }
 }
+
 #img-caption{
   margin:15px;
 }
+
 #headline{
 
   margin-top:50px;
   text-align:center;
 
 }
+
 article,a{
   max-width:75em;
   margin:0 auto;
@@ -45,21 +51,19 @@ article,a{
   text-decoration: none;
   
 }
-article > a {
-  color: pink;
-}
+
+
 article::first-letter {
     color: red;
     font-size: x-large;
 }
 
 h3 > a{ color: pink;} 
-
+article > a { color: pink; }
 
  a: link { color: black; }
- a:visited { color:white }
  a:hover{ color: black; }
- a:active{ color: yellow; }
+ a:active{ color: white; }
 
 
 
@@ -131,4 +135,13 @@ body {margin:0;}
   color: white;
 }
 
-p > a{color:pink;}
+#iframe{
+  width:560px;
+  height:315px;
+}
+
+@media (max-width: 600px) {  
+ #iframe{
+  max-width: 21em;
+ }
+}
